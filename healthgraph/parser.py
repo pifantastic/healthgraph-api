@@ -91,7 +91,7 @@ def parse_resource_dict(prop_defs, data):
 
 def parse_date_param(val):
     if isinstance(val, (date, datetime)):
-        return val.strftime('%y-%m-%d')
+        return val.strftime('%Y-%m-%d')
     else:
         return val
 
